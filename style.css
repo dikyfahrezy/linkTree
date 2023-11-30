@@ -9,6 +9,8 @@ body {
   background-color: #0d1f2b;
   min-height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
   color: #344966;
   background-image: url(img/oriental-tiles.png);
   background-repeat: repeat;
@@ -21,7 +23,8 @@ main {
   display: flex;
   border-radius: 10px;
   background-color: #b4cded;
-  max-width: 1200px;
+  max-width: 500px;
+  width: 90vw;
 }
 section {
   margin: auto;
